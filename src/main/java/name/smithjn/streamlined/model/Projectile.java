@@ -1,3 +1,5 @@
+package name.smithjn.streamlined.model;
+
 public class Projectile implements Missile {
 
     private final double gravity;

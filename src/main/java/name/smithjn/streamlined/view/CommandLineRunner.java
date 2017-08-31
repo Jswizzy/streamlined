@@ -1,3 +1,7 @@
+package name.smithjn.streamlined.view;
+
+import name.smithjn.streamlined.model.Missile;
+
 import java.util.Scanner;
 
 public class CommandLineRunner implements Runner {
@@ -10,7 +14,6 @@ public class CommandLineRunner implements Runner {
     private static final String BYE = "Goodbye!";
 
     private final Scanner scanner = new Scanner(System.in);
-    private Projectile projectile;
 
     public CommandLineRunner() {
     }

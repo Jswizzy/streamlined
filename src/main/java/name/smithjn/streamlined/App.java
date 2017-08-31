@@ -1,3 +1,10 @@
+package name.smithjn.streamlined;
+
+import name.smithjn.streamlined.model.Missile;
+import name.smithjn.streamlined.model.Projectile;
+import name.smithjn.streamlined.view.CommandLineRunner;
+import name.smithjn.streamlined.view.Runner;
+
 public class App {
 
     private static final double GRAVITY = -9.81;

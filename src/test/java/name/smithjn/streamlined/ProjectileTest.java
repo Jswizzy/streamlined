@@ -1,3 +1,6 @@
+package name.smithjn.streamlined;
+
+import name.smithjn.streamlined.model.Projectile;
 import org.junit.Test;
 
 import java.text.DecimalFormat;
@@ -15,6 +18,6 @@ public class ProjectileTest {
 
         Projectile projectile = new Projectile(GRAVITY, VELOCITY);
 
-        assertThat("Projectile range works", "45.14", equalTo(df2.format(projectile.range(5))));
+        assertThat("name.smithjn.streamlined.model.Projectile range works", "45.14", equalTo(df2.format(projectile.range(5))));
     }
 }
